@@ -1,0 +1,22 @@
+.header {
+  min-height: 350px;
+  // background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/img/iiot-la-gi.png);
+
+  &-block {
+    padding-inline: 24px;
+
+  }
+
+  &-messendger__img {
+    width: 25px;
+    max-width: 100%;
+  }
+
+  &-block__logo {
+    max-width: 350px;
+    width: 100%;
+  }
+}

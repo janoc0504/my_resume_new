@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  min-height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/img/iiot-la-gi.png);
+}
+.header-block {
+  padding-inline: 24px;
+}
+.header-messendger__img {
+  width: 25px;
+  max-width: 100%;
+}
+.header-block__logo {
+  max-width: 350px;
+  width: 100%;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+
+.skills {
+  max-width: 400px;
+  border-right: 1px solid #0a58ca;
+}
+.skills-cont {
+  position: relative;
+}
+.skills-list {
+  list-style-type: disc;
+}
+
+.expirence {
+  list-style-type: disc;
+}
+
+.edu {
+  border-top: 1px solid #0a58ca;
+}
+
+.carousel-indicators.carousel__buttons {
+  bottom: -70px;
+  position: static;
+}
+.carousel-indicators.carousel__buttons [data-bs-target] {
+  width: 18px;
+  height: 18px;
+  background-color: #0a58ca;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.footer {
+  border-top: 1px solid #0a58ca;
+}
