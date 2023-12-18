@@ -139,6 +139,10 @@ table {
   background-size: cover;
   background-position: center;
   background-image: url(../assets/img/iiot-la-gi.png);
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 .header-block {
   padding-inline: 24px;
@@ -177,7 +181,6 @@ body {
 }
 
 .carousel-indicators.carousel__buttons {
-  bottom: -70px;
   position: static;
 }
 .carousel-indicators.carousel__buttons [data-bs-target] {
@@ -188,6 +191,15 @@ body {
   max-width: 100%;
 }
 
+.carousel-control-next-icon.icon {
+  background-image: url(../assets/svg/forward-solid.svg);
+}
+
+.carousel-control-prev-icon.icon {
+  background-image: url(../assets/svg/backward-solid.svg);
+}
+
 .footer {
   border-top: 1px solid #0a58ca;
+  position: relative;
 }

@@ -1,3 +1,7 @@
+// .main {
+//   height: 100vh;
+// }
+
 .skills {
   max-width: 400px;
   border-right: 1px solid #0a58ca;
@@ -21,7 +25,7 @@
 }
 
 .carousel-indicators.carousel__buttons {
-  bottom: -70px;
+  // bottom: 150px;
   position: static;
 
   [data-bs-target] {
@@ -32,3 +36,12 @@
     max-width: 100%;
   }
 }
+
+.carousel-control-next-icon.icon {
+background-image: url(../assets/svg/forward-solid.svg);
+}
+
+.carousel-control-prev-icon.icon {
+  background-image: url(../assets/svg/backward-solid.svg);
+}
+
