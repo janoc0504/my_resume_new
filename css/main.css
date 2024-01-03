@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 html,
 body,
 div,
@@ -134,15 +136,24 @@ table {
   box-sizing: border-box;
 }
 
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+
 .header {
-  min-height: 350px;
   background-size: cover;
   background-position: center;
   background-image: url(../assets/img/iiot-la-gi.png);
-  background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top;
+}
+@media screen and (min-width: 576px) {
+  .header {
+    min-height: 350px;
+    background-size: contain;
+  }
 }
 .header-block {
   padding-inline: 24px;
@@ -157,8 +168,8 @@ table {
 }
 
 .download_link {
-  border-radius: 30px;
-  background-color: #0a58ca;
+  border-radius: 6px;
+  background-color: #0d6efd;
   padding: 15px 18px;
   font-size: 20px;
   text-decoration: none;
@@ -171,9 +182,18 @@ body {
   font-style: normal;
 }
 
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+
 .skills {
   max-width: 400px;
-  border-right: 1px solid #0a58ca;
+}
+@media screen and (min-width: 576px) {
+  .skills {
+    border-right: 1px solid #0a58ca;
+  }
 }
 .skills-cont {
   position: relative;

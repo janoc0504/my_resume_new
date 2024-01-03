@@ -1,13 +1,17 @@
+@import "common-styles";
+
 .header {
-  min-height: 350px;
-  // background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-image: url(../assets/img/iiot-la-gi.png);
-  background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top;
+
+  @media screen and (min-width: $sm) {
+    min-height: 350px;
+    background-size: contain;
+  }
 
   &-block {
     padding-inline: 24px;
@@ -27,8 +31,8 @@
 
 .download_link {
   // border: 3px solid white;
-  border-radius: 30px;
-  background-color: #0a58ca;
+  border-radius: 6px;
+  background-color: #0d6efd;
   padding: 15px 18px;
   font-size: 20px;
   text-decoration: none;

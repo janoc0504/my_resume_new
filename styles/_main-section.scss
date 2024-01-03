@@ -1,10 +1,12 @@
-// .main {
-//   height: 100vh;
-// }
+@import "common-styles";
 
 .skills {
   max-width: 400px;
-  border-right: 1px solid #0a58ca;
+  // border-top: 1px solid #0a58ca;
+
+  @media screen and (min-width: $sm) {
+    border-right: 1px solid #0a58ca;
+  }
 
   &-cont {
     position: relative;
@@ -38,10 +40,9 @@
 }
 
 .carousel-control-next-icon.icon {
-background-image: url(../assets/svg/forward-solid.svg);
+  background-image: url(../assets/svg/forward-solid.svg);
 }
 
 .carousel-control-prev-icon.icon {
   background-image: url(../assets/svg/backward-solid.svg);
 }
-
